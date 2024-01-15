@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root{
+  --variable: #121113;
+  --bgColor: black;
+
+}
+
+body{
+  background-color: var(--bgColor);
+  height: 100vh;
+  overflow-x: hidden !important;
+}
+
+
+@font-face {
+  font-family: 'Swera';
+  src: url('./assets/fonts/Swera-Bold-Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fibres';
+  src: url('./assets/fonts/Library-3-am.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
